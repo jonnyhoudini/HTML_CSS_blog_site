@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body>header {
+    padding: 30px;
+    padding-bottom: 5%;
+    background-color: #FF5714;
+    color: white;
+}
+
+#top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+    float: left;
+}
+
+.navbar-text {
+    color: white;
+}
+
+.navlist {
+    display: inline;
+}
+
+.avatar {
+    width: 100px
+}
+
+footer {
+    background-color: #FF5714;
+    padding: 18px;
+    text-align: center;
+    color: white;
+}
