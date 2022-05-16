@@ -3,6 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+section,
+main {
+    margin: 10px
+}
+
 body>header {
     padding: 30px;
     padding-bottom: 5%;
