@@ -9,30 +9,32 @@ main {
 }
 
 body>header {
-    padding: 30px;
-    padding-bottom: 5%;
+    padding: 10px;
     background-color: #FF5714;
     color: white;
+}
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 #top-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: right;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     font-family: 'Righteous', cursive;
-    float: left;
 }
 
 .navbar-text {
     color: white;
-}
-
-.navlist {
-    display: inline;
+    text-decoration: none;
+    padding-right: 5px;
 }
 
 .avatar {
