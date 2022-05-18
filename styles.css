@@ -8,6 +8,11 @@ main {
     margin: 10px
 }
 
+body>main {
+    width: 70%;
+    margin: auto;
+}
+
 body>header {
     padding: 10px;
     background-color: #FF5714;
@@ -17,6 +22,10 @@ body>header {
 header>nav {
     display: flex;
     justify-content: space-between;
+}
+
+section>hgroup {
+    padding-left: 16px;
 }
 
 #top-nav {
@@ -46,4 +55,19 @@ footer {
     padding: 18px;
     text-align: center;
     color: white;
+}
+
+#top-bit {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.breaking {
+    display: flex;
+    padding: 16px;
+}
+
+.breaking>img {
+    padding-right: 10px;
 }
